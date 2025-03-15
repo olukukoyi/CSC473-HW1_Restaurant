@@ -12,7 +12,7 @@ function Navbar() {
           <Link href="/" className="font-serif text-2xl font-bold flex">
             7th Street <BurgerLogo />
           </Link>
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="flex items-center space-x-8">
             <Link
               href="/#about"
               className="text-sm font-medium hover:text-primary transition-colors"
@@ -40,7 +40,7 @@ function Navbar() {
             </Link>
           </nav>
 
-          <div className="flex space-x-6">
+          <div className="hidden md:flex space-x-6">
             <Link
               href="https://www.instagram.com/7thstreetburgernyc/"
               target="_blank"
