@@ -38,7 +38,7 @@ export default function Home() {
               </div>
               <div>
                 <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6">
-                  Our Story
+                  About Us
                 </h2>
 
                 <p className=" mb-4">
