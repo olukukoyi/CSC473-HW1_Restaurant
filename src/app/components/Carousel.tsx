@@ -17,7 +17,7 @@ const images = [
     alt: "Slide1",
   },
   {
-    src: "/slider4.png",
+    src: "/Slider4.png",
     alt: "Slide 4",
   },
   {
@@ -33,7 +33,7 @@ const images = [
     alt: "Slide 4",
   },
   {
-    src: "/grub-ig.png",
+    src: "/grubgrub.jpg",
     alt: "Slide 4",
   },
 ];

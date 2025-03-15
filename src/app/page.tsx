@@ -30,7 +30,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative h-[400px] rounded-lg overflow-hidden">
                 <Image
-                  src="/slider3.png"
+                  src="/Slider3.png"
                   alt=""
                   fill
                   className="object-cover"
