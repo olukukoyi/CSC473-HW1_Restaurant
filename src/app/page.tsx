@@ -8,7 +8,7 @@ export default function Home() {
         <section className="relative h-screen flex items-center justify-center">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/slider1.png"
+              src="/Slider1.png"
               alt=""
               fill
               className="object-cover brightness-[0.6]"
