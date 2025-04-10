@@ -1,7 +1,13 @@
 "use client";
 
 import React from "react";
-import { BurgerLogo, Facebook, Instagram, Twitter } from "./Icons";
+import {
+  BurgerLogo,
+  Facebook,
+  Instagram,
+  ShoppingCart,
+  Twitter,
+} from "./Icons";
 import Link from "next/link";
 
 function Navbar() {
@@ -41,6 +47,13 @@ function Navbar() {
           </nav>
 
           <div className="hidden md:flex space-x-6">
+            <Link
+              href="/Cart"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <ShoppingCart />
+              <span className="sr-only">Instagram</span>
+            </Link>
             <Link
               href="https://www.instagram.com/7thstreetburgernyc/"
               target="_blank"
